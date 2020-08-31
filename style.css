@@ -1,0 +1,88 @@
+html {
+  background: url(https://www.lefthudson.com/wp-content/uploads/2019/11/calming-backgrounds-luxury-calm-desktop-wallpaper-inspiration-of-calming-backgrounds.jpg)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  height: 100%;
+}
+
+#container {
+  margin: 0 auto;
+  position: absolute;
+  top: 25%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  z-index: -1; /* Remove this line if it's not going to be a background! */
+}
+
+#length-input-container {
+  text-align: center;
+}
+
+#timer-interface {
+  text-align: center;
+  margin: center;
+  width: 0 auto;
+}
+
+#timer-display {
+  border-radius: 8px;
+  background-color: rgba(142, 69, 133, 0.5);
+  border: 2px solid black;
+  width: 200px;
+  height: auto;
+  margin: auto;
+  line-height: 10px;
+}
+
+#time-left {
+  font-size: 60px;
+}
+
+.button {
+  border-radius: 8px;
+  background-color: rgba(142, 69, 133, 0.5);
+  border: 2px solid black;
+  width: 200px;
+  font-size: 40px;
+  margin: 50px;
+  outline: none;
+  box-shadow: none;
+}
+
+#length-input {
+  border: 2px solid black;
+  font-size: 20px;
+  display: inline-block;
+  background-color: rgba(142, 69, 133, 0.5);
+  padding: 5px;
+  opacity: 1;
+  -webkit-transition: opacity 1000ms linear;
+  transition: opacity 1000ms linear;
+}
+
+#submit-button-holder {
+  text-align: center;
+}
+
+#quote {
+  text-align: right;
+  color: white;
+  margin: 20px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  -webkit-transition: opacity 2000ms linear;
+  transition: opacity 2000ms linear;
+}
+
+input[type="number"] {
+  width: 40px;
+}

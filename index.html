@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Pomodoro </title>
+        <link rel="stylesheet" type="text/css" href="style.css"></link>
+        <script src="app.js"></script>
+    </head>
+<body>
+
+<div id="container">
+    <div id="timer-interface">
+        <div id="timer-display">
+            <h3><span id="current-phase">Welcome!</span></h3>
+            <h3>Time left: </h3> 
+            <h4><span id="time-left"></span></h4>
+        </div>
+        <button id="start-btn" class="button">Start</button>
+    </div>
+
+    <div id="length-input-container">
+    <form id="length-input">
+        <div>
+            <label for="work-time">Enter length of work period:</label>
+            <input type="number" id="work-time" class ="time-inputs" name="work-time" value="25" min="1">
+            <br>
+            <label for="break-time">Enter length of break period</label>
+            <input type="number" id="break-time" class ="time-inputs" name="break-time" value="5" min="1">
+            <br>
+            <label for="break-time">Enter length of long break period</label>
+            <input type="number" id="long-break-time" class ="time-inputs" name="long-break-time" value="30" min="1">
+        </div>
+        <div id="submit-button-holder">
+            <button id="submit-button" type="button">Submit</button>
+        </div>
+    </form>
+</div>
+    <div id="quote">
+        <h3><span id="quote-text"></span></h3>
+        <h2><span id="quote-author"></span></h2>
+    </div>
+</div>
+
+</body>
+</html>
