@@ -21,7 +21,7 @@ body {
   left: 0;
   right: 0;
   overflow: hidden;
-  z-index: -1; /* Remove this line if it's not going to be a background! */
+  z-index: -1;
 }
 
 #length-input-container {
@@ -78,11 +78,11 @@ body {
   text-align: right;
   color: white;
   margin: 20px;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
   -webkit-transition: opacity 2000ms linear;
   transition: opacity 2000ms linear;
 }
 
-input[type="number"] {
+input[type='number'] {
   width: 40px;
 }
