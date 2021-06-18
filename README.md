@@ -1,5 +1,7 @@
 Pomodoro App
 
+Created using JavaScript, HTML, CSS
+
 This is a study aid developed to give users greater control over their pomodoro study timer. This was primarily intended for personal use to be able to change the parameters of the study technique.
 
 What is the Pomodoro Technique? Wikipedia has this to say: 
